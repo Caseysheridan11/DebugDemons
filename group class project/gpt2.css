@@ -1,0 +1,39 @@
+/* Style for the container of the event component */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px; /* Adjust the width of the container */
+   
+    margin-bottom: 20px;
+}
+
+/* Style for the event image */
+.event-image {
+    width: 100%;
+    flex: 1;
+    overflow: hidden;
+}
+
+/* Style for the image inside the event */
+.event-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Style for the event information section */
+.event-info {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
