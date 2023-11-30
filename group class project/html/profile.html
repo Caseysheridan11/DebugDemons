@@ -1,3 +1,5 @@
+ <!--PROFILE PAGE - User logged in -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,12 +19,11 @@
             <input type="search" placeholder="Search" />
         </div>
         <div class="navigation">
-            <!--when you add active to texts when coding, the active can represent a class in css and is simply used to identifuy tat a class is active(when clicked on an action occurs on the same page. Not a link.)-->
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Events</a></li>
-                <li><a href="">Saved</a></li>
-                <li><a href="">Profile</a></li>
+                <li><a href="index-alt.html">Home</a></li>
+                <li><a href="events-alt.html">Events</a></li>
+                <li><a href="saved-alt.html">Saved</a></li>
+                <li><a href="profile.html">Profile</a></li>
             </ul>
         </div>
     </header>
@@ -165,6 +166,58 @@
             <img src="concert.jpeg" alt="eventcard">
         </div>
     </section>
+
+        <!--CREATE EVENT------------------------------------------------------>
+        <section>
+            <h1>Create Event</h1>
+            <p>If you would like to submit your own event to be featured on our platform, we welcome
+                your participation! To ensure the quality and relevance of events for all our users,
+                we have a submission process in place. </p><br>
+    
+            <p>Submit this form and we will get in touch with you!</p>
+            <form action="/process-event" method="post" enctype="multipart/form-data">
+                <!-- Name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name" required><br>
+    
+                <!-- Groups -->
+                <label for="groups">Affiliation:</label>
+                <input type="text" id="groups" name="groups" placeholder="Associated Groups" required><br>
+    
+                <!-- Category -->
+                <label for="category">Category:</label>
+                <select id="category" name="category" placeholder="Event Category" required>
+                    <option value="workshop">Workshop</option>
+                    <option value="conference">Conference</option>
+                    <option value="meeting">Meeting</option>
+                    <!-- Add more options as needed -->
+                </select><br>
+    
+                <!-- Date -->
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" placeholder="dd/mm/yyyy" required><br>
+    
+                <!-- Time -->
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" placeholder="10:00AM" required><br>
+    
+                <!-- Location -->
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Search..." required><br>
+    
+                <!-- Details -->
+                <label for="details">Details:</label><br>
+                <textarea id="details" name="details" rows="4" cols="50" placeholder="
+                UI Meetup  welcomes students of all levels. Whether you're a beginner eager to explore the world of user interface design or an experienced professional looking to network and stay up-to-date with the latest trends. 
+                Contact sherichang@sheridancollege.ca if you have questions!" required></textarea><br>
+    
+                <!-- Photo Upload -->
+                <label for="photos">Upload Photos:</label>
+                <input type="file" id="photos" name="photos" accept="image/*" placeholder="Drop or Upload Photos"><br>
+    
+                <!-- Submit Button -->
+                <input type="submit" value="Submit">
+            </form>
 
     <!--FOOTER---------------------------------------------------------------------------------->
     <section class="footer">

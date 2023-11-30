@@ -1,3 +1,4 @@
+ <!--EVENT SEARCH PAGE -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,22 +18,37 @@
             <input type="search" placeholder="Search" />
         </div>
         <div class="navigation">
-            <!--when you add active to texts when coding, the active can represent a class in css and is simply used to identifuy tat a class is active(when clicked on an action occurs on the same page. Not a link.)-->
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Events</a></li>
-                <li><a href="">Saved</a></li>
-                <li><a href="">Profile</a></li>
+                <li><a href="index-alt.html">Home</a></li>
+                <li><a href="events-alt.html">Events</a></li>
+                <li><a href="saved-alt.html">Saved</a></li>
+                <li><a href="profile.html">Profile</a></li>
             </ul>
         </div>
     </header>
 
     <section>
-        <h2>Your saved events...</h2>
+        <h2>Take a look at event you might be interested in...</h2>
+        <div class="dropdown">
+        <!--took away sort, only includes filter-->
+            <span>
+                <img src="filter.jpg" alt="filterIcon">
+            </span>
+            <div class="dropdown-content">
+                <h3>Category</h3>
+                    <ul>
+                        <li><a href="">Sports</a></li>
+                        <li><a href="">Study</a></li>
+                        <li><a href="">Hangouts</a></li>
+                        <li><a href="">Concerts</a></li>
+                    </ul>
+            </div>
+          </div>
     </section>
 
-    <!--EVENTS---------------------------------------------------------------------------------->
-    <section class="saved">
+    <!--RECOMMENDED EVENTS---------------------------------------------------------------------------------->
+    <section class="recommended">
+        <h1>Recommended Events</h1>
         <div class="eventLrg">
             <img src="concert.jpeg" alt="eventcard">
             <div class="eventLrgText">
@@ -100,53 +116,8 @@
             <img src="concert.jpeg" alt="eventcard">
         </div>
     </section>
-<!--SUGGESTED---------------------------------------------------------------------------------->
-<section>
-    <h3>Suggested events for you...</h3>
-    <div class="event">
-        <img src="concert.jpeg" alt="eventcard">
-        <div class="eventText">
-            <div class="eventTitle">
-                <h3>Travis Scott Concert</h3>
-            </div>
-            <div class="eventDate">
-                <p>Date: 11/29/03 </p>
-            </div>
-            <div class="eventTime">
-                <p>Time: 18:00</p>
-            </div>
-        </div>
-    </div>
-    <div class="event">
-        <img src="concert.jpeg" alt="eventcard">
-        <div class="eventText">
-            <div class="eventTitle">
-                <h3>Travis Scott Concert</h3>
-            </div>
-            <div class="eventDate">
-                <p>Date: 11/29/03 </p>
-            </div>
-            <div class="eventTime">
-                <p>Time: 18:00</p>
-            </div>
-        </div>
-    </div>
-    <div class="event">
-        <img src="concert.jpeg" alt="eventcard">
-        <div class="eventText">
-            <div class="eventTitle">
-                <h3>Travis Scott Concert</h3>
-            </div>
-            <div class="eventDate">
-                <p>Date: 11/29/03 </p>
-            </div>
-            <div class="eventTime">
-                <p>Time: 18:00</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!--FOOTER---------------------------------------------------------------------------------->
+
+    <!--FOOTER---------------------------------------------------------------------------------->
     <section class="footer">
         <img src="logo.jpg" alt="logo">
         <p>©2023 Debug Demons. All rights reserved</p><br>
