@@ -1,0 +1,275 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #6373B0;
+    padding:15px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center; 
+    left:0;
+    top:0;
+}
+
+header img {
+    width: 100px
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    color: #486284;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+ul li {
+    margin-right: 10px;
+    text-decoration: none; 
+}
+
+button {
+    width: 134px;
+    height: 38px;
+    background: #F2994A;
+    border-radius: 22px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button li{
+    margin-right: 10px;
+    text-decoration: none; 
+}
+
+.logo img{
+    padding: 5%;
+}
+ 
+input[type="search"] {
+    width: 410px;
+    height: 53px;
+    background: #EFF3FD;
+    border-radius: 22px;
+    box-sizing: border-box; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+}
+
+input[type="search"]:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.Home {
+    background-color: #DFE4F5;
+    overflow: hidden; 
+}
+
+.Home .info {
+    float: left;
+    width: 50%;
+    padding: 60px; 
+    box-sizing: border-box; 
+}
+
+.Home .info h1 {
+    color: #1A202C;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 55.75px;
+
+}
+
+.Home .info p {
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.60px;
+    opacity: 0.45;
+    word-wrap: break-word
+}
+
+.pic {
+    float: right;
+    width: 50%;
+    padding: 60px; 
+    box-sizing: border-box;    
+}
+
+.Explore {
+    background-color: #F6F7F9;
+    overflow: hidden;
+}
+
+.Explore h1 {
+    text-align: center;
+    color: #486284;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    word-wrap: break-word
+}
+
+.Explore p {
+    color: #1A202C;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.Explore .info1 {
+    float: left;
+    width: 50%;
+    padding: 100px; 
+    box-sizing: border-box; 
+}
+
+.Explore .info2 {
+    float: right;
+    width: 50%;
+    padding: 100px; 
+    box-sizing: border-box; 
+}
+
+.info1 h3 {
+    color: #1A202C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    word-wrap: break-word;
+    text-align: center
+}
+
+.info2 h3 {
+    color: #1A202C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    word-wrap: break-word;
+    text-align: center
+}
+
+.info1 p {
+    color: #1A202C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.50px;
+    word-wrap: break-word;
+    text-align: center
+
+}
+
+.info2 p {
+    color: #1A202C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.50px;
+    word-wrap: break-word;
+    text-align: center
+
+}
+
+.notes h1 {
+    color: #486284;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    word-wrap: break-word;
+    text-align: center
+}
+
+.notes p {
+    color: #1A202C;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+}
+
+.categories .category-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 35px 70px; 
+}
+
+.categories .category-item img {
+    width: 106px;
+    height: 106px; 
+    display: block; 
+    margin: 0 35px; 
+    display: inline-block;
+}
+
+.categories .category-item p {
+    margin: 0;
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+}
+
+.EventP .event img {
+    width: 310px;
+    height: 310px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    object-fit: cover; 
+}
+
+.event{
+    width: 310px;
+    height: 416px;
+    background: #EFF3FD; 
+    border-radius: 34px
+}
+
+
+.footer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #6373B0;
+    padding: 5%;
+    left: 0;
+    top: 0;
+    text-align: left;
+}
+
+.footer img {
+    width: 200px; 
+}
+
+.footer p {
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer .social img {
+    width: 33.60px;
+    height: 33.60px;
+    border-radius: 50%;
+}
