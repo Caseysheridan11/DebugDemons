@@ -6,12 +6,86 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.event{
-    position: relative;
+/*CSS FOR EVENT CARD-------------------------------------------*/
+.eventP {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%; 
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.event{
+    width: 30%;
+    height: auto;
+    background: #EFF3FD; 
+    border-radius: 34px;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    object-fit: cover; 
+}
+
+.eventText {
+    align-items: center; 
+    padding-left:1rem;
+}
+
+.eventTitle {
+    color: #1A202C;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.timeDetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.eventDate, .eventTime {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.dateValue, .timeValue {
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    word-wrap: break-word;
+    margin-right: 1rem;
+}
+
+
+/*CSS FOR EVENT CARD LRG-------------------------------------------*/
+.eventLrg {
+    width:90%;
+    display: flex;
     align-items: center;
-    align-content: center;
-    width: ;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: #DFE4F5; /* Replace with your desired background color */
+    padding: 15px; /* Adjust padding as needed */
+    border-radius: 20px;
+}
+
+.eventLrg img {
+    max-width: 40%; /* Adjust the width of the image as needed */
+    border-radius: 10px; /* Rounded corners for the image */
+    align-items: flex-end;
+}
+
+.eventLrgText {
+    flex-grow: 1;
+    padding-left: 15px; /* Adjust padding as needed */
+}
+
+.eventLrgTitle, .eventLrgLoc, .eventLrgDate, .eventLrgTime, .eventLrgCont {
+    margin-bottom: 10px; /* Adjust margin as needed */
 }
