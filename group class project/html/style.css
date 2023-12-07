@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 * {
     font-family: 'Plus Jakarta Sans', sans-serif;
+    text-decoration: none;
+}
+body {
+    margin: 0;
 }
 
 header {
-    width: 100%;
+    width: 98.7%;
     height: 100%;
     position: relative;
-    background-color: #6373B0;
+    background-color: #DFE4F5;
     padding:15px;
     display: flex;
     text-align: center;
@@ -14,15 +19,18 @@ header {
     align-items: center; 
     left:0;
     top:0;
+  
 }
 
 header img {
     width: 60%;
     padding: 5%;
+    padding-left: 100px;
 }
 
 .navigation{
-    padding-right: 1.5rem;
+    padding-right: 50px;
+
 }
 
 ul {
@@ -34,13 +42,13 @@ ul {
     font-weight: 500;
     line-height: 30px;
     justify-content: space-between;
-    align-items: center; 
-    text-decoration: none; 
+    align-items: center;  
+    padding-right: 50px;
 }
 
 ul li {
     margin-right: 1.5rem;
-    text-decoration: none; 
+
 }
 
 button {
@@ -63,11 +71,11 @@ button li{
 
 input[type="search"] {
     width: 410px;
-    height: 53px;
+    height: 45px;
     background: #EFF3FD;
-    border-radius: 22px;
+    border-radius: 30px;
     box-sizing: border-box; 
-    padding: 10px; 
+    padding: 20px; 
     font-size: 16px; 
     border: none; 
     outline: none; 
@@ -381,15 +389,217 @@ input[type="search"]:focus {
 .eventLrgLoc, .eventLrgDate, .eventLrgTime, .eventLrgCont {
     margin-bottom: 10px; /* Adjust margin as needed */
 }
+/*ERROR/SAVED ERROR HTML---------------------------------------------------------------*/
 
-/*----------------------------------------------------------------*/
+.errorCont{
+    text-align: center;
+}
+.errorImg{
+    padding-top: 50px;
+    width: 35%;
+}
+.errorText{
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #486284;
+
+}
+#startSearch{
+    width: 9%;
+}
+
+/*LOGIN/SIGNUP---------------------------------------------------------------*/
+.loginTitle {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 134px;
+    color: #486284;
+}
+
+.tag{
+    font-size: 18px;
+    padding-left: 134px;
+    color: #486284;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: #486284;
+    padding-bottom: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 120%; /* Set to 100% to match the container */
+    background-color: #DFE4F5;
+    border-radius: 18px;
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline around the input boxes */
+}
+
+.logButton {
+    width: 130%; /* Adjust the width as needed */
+    text-align: center;
+    margin: 10px auto; /* Center the button horizontally */
+}
+
+#forgot-pass {
+    font-size: 12px;
+    text-decoration: none;
+    text-align: right;
+}
+/*PROFILE PAGE---------------------------------------------------------------*/
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 134px;
+    padding-bottom: 100px;
+}
+
+.left-section {
+    padding-right: 20px; /* Adjust the padding between the sections */
+}
+
+.name-title {
+    font-size: 24px;
+    padding-top: 30px;
+    color: #486284;
+}
+.profile-info{
+    text-align: center;
+}
+.profile-details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-img {
+    border-radius: 20px;
+    height: 320px;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.profile-content {
+    padding-top: 50px;
+    flex: 1; 
+    margin: 100px;
+    color: #486284;
+}
+
+.social-links {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.social-links img {
+    margin-right: 10px;
+}
+
+/*CREATE EVENT---------------------------------------------------------*/
+.create-event {
+    max-width: 40%;
+    margin: 0 auto;
+}
+.event-title{
+    font-size: 36px;
+}
+.createEvForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 300px;
+    margin: 0 auto;
+}
+#category{
+    padding: 10px;
+    width: 128%;
+    margin-bottom: 10px;
+    background-color: #DFE4F5;
+    border-radius: 18px;
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline around the input boxes */
+}
+.form-details{
+    margin: auto;
+    padding-right: 125px;
+}
+
+#details{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 128%; /* Set to 100% to match the container */
+    background-color: #DFE4F5;
+    border-radius: 18px;
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline around the input boxes */
+}
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#photos {
+    border: 2px dashed #ccc;
+    background-color:#fff;
+    padding: 10px;
+    width: 125%;
+    height: 150px; /* Set your desired height */
+}
+
+input[type="submit"] {
+    width: 134px;
+    height: 38px;
+    background: #F2994A;
+    border-radius: 22px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #a75b19;
+}
+/*FOOTER---------------------------------------------------------------*/
 
 .footer {
-    width: 100%;
+    width: 90%;
     height: 100%;
     position: relative;
     background-color: #6373B0;
     padding: 5%;
+    padding-left: 134px;
     left: 0;
     top: 0;
     text-align: left;
