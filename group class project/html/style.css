@@ -530,8 +530,11 @@ input {
 .createEvForm {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 300px;
+    gap: 110px;
     margin: 0 auto;
+}
+.form-right{
+    width:80%;
 }
 #category{
     padding: 10px;
@@ -541,6 +544,7 @@ input {
     border-radius: 18px;
     border: none; /* Remove the border */
     outline: none; /* Remove the outline around the input boxes */
+
 }
 .form-details{
     margin: auto;
