@@ -1,0 +1,76 @@
+<!--LOGIN PAGE-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/group class project/assets/SDfavicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/group class project/assets/Logo.png" alt="logo">
+        </div>
+        <div class="search">
+            <input type="search" placeholder="Search" />
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <button>
+                    <a href="signup.html">Sign Up</a>
+                </button>
+                <button>
+                    <a href="login.html">Login</a>
+                </button>
+            </ul>
+        </div>
+    </header>
+
+    <!--LOGIN ------------------------------------------------------>
+    <section>
+        <div class="loginTitle">
+            <h1>Login</h1>
+        </div>
+        <div class="login">
+            <form action="process-login.php" method="post">
+                <div id="log-block">
+                    <label for="email"><b>Email</b></label><br>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                    <br>
+                    <label for="psw"><b>Password</b></label><br>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <br>
+                    <button class="logButton" type="submit">Login</button>
+                    <br>
+                    <div id="forgot-pass">
+                        <span class="psw"> <a href="#">Forgot password?</a></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--FOOTER---------------------------------------------------------------------------------->
+    <section class="footer">
+        <img src="/group class project/assets/Logo.png" alt="logo">
+        <p>©2023 Debug Demons. All rights reserved</p><br>
+        <p>A platform to empower connections, foster community, and enrich campus life.</p>
+        <img src="facebook.jpg" alt="facebookLogo">
+        <img src="twitter.jpg" alt="twitterLogo">
+        <img src="instagram.jpg" alt="instagramLogo">
+    </section>
+</body>
+
+</html>

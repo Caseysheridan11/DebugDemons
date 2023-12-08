@@ -1,0 +1,256 @@
+<!--MAIN LANDING PAGE - User not logged in-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShareDen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="/group class project/assets/SDfavicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/Logo.png" alt="logo">
+        </div>
+        <div class="search">
+            <input type="search" placeholder="Search" />
+        </div>
+        <div class="navigation">
+            <!--when you add active to texts when coding, the active can represent a class in css and is simply used to identifuy tat a class is active(when clicked on an action occurs on the same page. Not a link.)-->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <button>
+                    <a href="signup.html">Sign Up</a>
+                </button>
+                <button>
+                    <a href="login.html">Login</a>
+                </button>
+            </ul>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="homeInfo">
+            <h1>Welcome!!</h1>
+            <p>Welcome to ShareDen where every moment is an opportunity for excitement! Discover a world of events, from lively concerts to captivating cultural gatherings.</p>
+        </div>
+        <div class="pic">
+            <img src="../assets/welcome.png" alt="img">
+        </div>
+    </section>
+
+    <section class="explore">
+        <h1>Start Exploring Events</h1>
+        <p>Start exploring now! Find your next adventure with just a click.</p>
+        <div class="info1">
+            <img src="../assets/choose.png" alt="img">
+            <h3>Choose an Event</h3>
+            <p>Enrich your campus experience through a variety of engaging events.</p>
+        </div>
+
+        <div class="info2">
+            <img src="../assets/save.png" alt="img">
+            <h3>Save your Event</h3>
+            <p>Add the event to your saved list and receive notifications when the event is about to begin. Stay in the loop, stay engaged!</p>
+        </div>
+    </section>
+
+    <section class="category">
+        <div class="categoryText">
+            <h1>Category for more tailored events</h1>
+            <p>Discover the most popular events and easily filter through them to find the ones that align with your interests. Your ideal event is just a search away. Start exploring now!</p>
+        </div>
+
+        <div class="categories">
+            <div class="category-item">
+                <img src="../assets/education.png" alt="img">
+                <p>Education</p>
+            </div>
+            <div class="category-item">
+                <img src="../assets/health.png" alt="img">
+                <p>Health</p>
+            </div>
+            <div class="category-item">
+                <img src="../assets/music.png" alt="img">
+                <p>Music</p>
+            </div>
+            <div class="category-item">
+                <img src="../assets/dance.png" alt="img">
+                <p>Dance</p>
+            </div>
+            <div class="category-item">
+                <img src="../assets/art.png" alt="img">
+                <p>Art</p>
+            </div>
+        </div>            
+    </section>
+
+    <section>
+        <h3>Recommended for you</h3>
+        <div class="divider1"></div>
+        <div class="divider2"></div>
+        <div class="eventP">
+            <a href="#" class="event">
+                <img src="../assets/concert.jpeg" alt="eventcard">
+                <div class="eventText">
+                    <div class="eventTitle">
+                        <h3>Travis Scott Concert</h3>
+                    </div>
+                    <div class="timeDetails">
+                        <div class="eventDate">
+                            <p>Date: </p>
+                        </div>
+                        <div class="dateValue">
+                            <p>May 15, 2024</p>
+                        </div>
+                        <div class="eventTime">
+                            <p>Time: </p>
+                        </div>
+                        <div class="timeValue">
+                            <p>4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="event">
+                <img src="../assets/spring.jpg" alt="eventcard">
+                <div class="eventText">
+                    <div class="eventTitle">
+                        <h3>Spring Music Festival</h3>
+                    </div>
+                    <div class="timeDetails">
+                        <div class="eventDate">
+                            <p>Date: </p>
+                        </div>
+                        <div class="dateValue">
+                            <p>June 8, 2024</p>
+                        </div>
+                        <div class="eventTime">
+                            <p>Time: </p>
+                        </div>
+                        <div class="timeValue">
+                            <p>9:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="event">
+                <img src="../assets/tech.jpg" alt="eventcard">
+                <div class="eventText">
+                    <div class="eventTitle">
+                        <h3>Tech Innovators Summit</h3>
+                    </div>
+                    <div class="timeDetails">
+                        <div class="eventDate">
+                            <p>Date: </p>
+                        </div>
+                        <div class="dateValue">
+                            <p>July 5, 2024</p>
+                        </div>
+                        <div class="eventTime">
+                            <p>Time: </p>
+                        </div>
+                        <div class="timeValue">
+                            <p>7:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="interested">
+            <h3>You might be interested in</h3>
+            <div class="divider1"></div>
+            <div class="divider2"></div>
+            <div class="eventP">
+                <a href="#" class="event">
+                    <img src="../assets/yoga.jpg" alt="eventcard">
+                    <div class="eventText">
+                        <div class="eventTitle">
+                            <h3>Yoga in the Park</h3>
+                        </div>
+                        <div class="timeDetails">
+                            <div class="eventDate">
+                                <p>Date: </p>
+                            </div>
+                            <div class="dateValue">
+                                <p>August 20, 2024</p>
+                            </div>
+                            <div class="eventTime">
+                                <p>Time: </p>
+                            </div>
+                            <div class="timeValue">
+                                <p>8:00 AM</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="event">
+                    <img src="../assets/food.jpg" alt="eventcard">
+                    <div class="eventText">
+                        <div class="eventTitle">
+                            <h3>Food Truck Frenzy</h3>
+                        </div>
+                        <div class="timeDetails">
+                            <div class="eventDate">
+                                <p>Date: </p>
+                            </div>
+                            <div class="dateValue">
+                                <p>September 12, 2024</p>
+                            </div>
+                            <div class="eventTime">
+                                <p>Time: </p>
+                            </div>
+                            <div class="timeValue">
+                                <p>5:30 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="event">
+                    <img src="../assets/comedy.jpg" alt="eventcard">
+                    <div class="eventText">
+                        <div class="eventTitle">
+                            <h3>Comedy Night</h3>
+                        </div>
+                        <div class="timeDetails">
+                            <div class="eventDate">
+                                <p>Date: </p>
+                            </div>
+                            <div class="dateValue">
+                                <p>December 18, 2023</p>
+                            </div>
+                            <div class="eventTime">
+                                <p>Time: </p>
+                            </div>
+                            <div class="timeValue">
+                                <p>7:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    </section>
+    <!--FOOTER---------------------------------------------------------------------------------->
+    <section class="footer">
+        <img src="../assets/Logo.png" alt="logo">
+        <p>©2023 Debug Demons. All rights reserved</p><br>
+        <p>A platform to empower connections, foster community, and enrich campus life.</p>
+        <i class="fa fa-facebook"></i>
+        <img src="twitter.jpg" alt="twitterLogo">
+        <img src="instagram.jpg" alt="instagramLogo">
+    </section>
+</body>
+
+</html>

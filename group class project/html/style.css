@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-decoration: none;
+}
+
+/* updated */
+body {
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #DFE4F5;
+    padding:15px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center; 
+    left:0;
+    top:0;
+  
+}
+/* updated */
+
+header img {
+    width: 50%;
+    padding: 5%;
+    padding-left: 80px;
+}
+
+.navigation{
+    padding-right: 50px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    color: #486284;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    justify-content: space-between;
+    align-items: center;  
+    padding-right: 50px;
+}
+
+ul li {
+    margin-right: 1.5rem;
+
+}
+/* updated */
+button {
+    width: 125px;
+    height: 38px;
+    background: #F2994A;
+    border-radius: 22px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+
+}
+
+button li{
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+input[type="search"] {
+    width: 410px;
+    height: 45px;
+    background: #EFF3FD;
+    border-radius: 30px;
+    box-sizing: border-box; 
+    padding: 20px; 
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+}
+
+input[type="search"]:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* updated */
+.home {
+    background-color: #DFE4F5;
+    overflow: hidden; 
+    padding: 10%;
+}
+
+.homeInfo {
+    float: left;
+    width: 50%;
+    padding: 60px; 
+    box-sizing: border-box; 
+}
+
+.home .info h1 {
+    color: #1A202C;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 55.75px;
+
+}
+
+.home .info p {
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.60px;
+    opacity: 0.45;
+    word-wrap: break-word
+}
+
+.pic {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;    
+}
+
+.pic img {
+    width: 100%; 
+    height: 100%; 
+    border-top-left-radius: 63px
+}
+
+.explore {
+    background-color: #F6F7F9;
+    overflow: hidden;
+}
+
+.explore h1 {
+    text-align: center;
+    color: #486284;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    word-wrap: break-word
+}
+
+.explore p {
+    color: #1A202C;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.info1 {
+    float: left;
+    width: 50%;
+    padding: 100px; 
+    box-sizing: border-box; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* updated */
+.info1 img {
+    width: 150px;
+    border-radius: 30px;
+}
+
+.info2 {
+    float: right;
+    width: 50%;
+    padding: 100px; 
+    box-sizing: border-box; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* updated */
+.info2 img {
+    width: 150px;
+    border-radius: 30px;
+}
+
+.info1 h3 {
+    color: #1A202C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+.info2 h3 {
+    color: #1A202C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+.info1 p {
+    color: #1A202C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.50px;
+    word-wrap: break-word;
+
+}
+
+.info2 p {
+    color: #1A202C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.50px;
+    word-wrap: break-word;
+
+}
+
+.category {
+    align-items: center;;
+    text-align: center;
+}
+
+.categoryText h1 {
+    color: #486284;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    word-wrap: break-word
+}
+
+.categoryText p {
+    color: #1A202C;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+
+/* updated */
+.categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.categories .category-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 35px 70px; 
+}
+
+
+/* updated */
+.categories .category-item img {
+    width: 100px;
+    display: block; 
+    margin: 0 35px; 
+    display: inline-block;
+    border-radius: 30px
+}
+
+.categories .category-item p {
+    margin: 0;
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+}
+
+.title {
+    color: #1A202C;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    word-wrap: break-word;
+    margin-left: 1.2rem
+}
+
+.divider1 {
+    width: 20%;
+    height: 4px;
+    background: #1A202C;
+    position: relative;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem
+}
+
+.divider2{
+    width: 100%; 
+    height: 1px;
+    background: #90A3BF;
+    position: relative;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem
+}
+/*CSS FOR EVENT CARD-------------------------------------------*/
+.eventP {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%; 
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.event{
+    width: 30%;
+    height: auto;
+    background: #EFF3FD; 
+    border-radius: 34px;
+    text-decoration: none;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    object-fit: cover; 
+}
+
+.eventText {
+    align-items: center; 
+    padding-left:1rem;
+}
+
+.eventTitle {
+    color: #1A202C;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.timeDetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.eventDate, .eventTime {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.dateValue, .timeValue {
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    word-wrap: break-word;
+    margin-right: 1rem;
+}
+
+/*CSS FOR EVENT CARD LRG-------------------------------------------*/
+.eventLrg {
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: #DFE4F5; /* Replace with your desired background color */
+    padding: 15px; /* Adjust padding as needed */
+    border-radius: 20px;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.eventLrg img {
+    max-width: 25%; /* Adjust the width of the image as needed */
+
+    border-radius: 25px; /* Rounded corners for the image */
+    align-items: flex-end;
+}
+
+.eventLrgText {
+    flex-grow: 1;
+    padding-left: 15px; /* Adjust padding as needed */
+    
+}
+
+.eventLrgTitle{
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.eventLrgLoc, .eventLrgDate, .eventLrgTime, .eventLrgCont {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+/*ERROR/SAVED ERROR HTML---------------------------------------------------------------*/
+
+.errorCont{
+    text-align: center;
+}
+.errorImg{
+    padding-top: 50px;
+    width: 35%;
+}
+.errorText{
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #486284;
+
+}
+#startSearch{
+    width: 9%;
+}
+
+/*LOGIN/SIGNUP---------------------------------------------------------------*/
+.loginTitle {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 134px;
+    color: #486284;
+}
+
+.tag{
+    font-size: 18px;
+    padding-left: 134px;
+    color: #486284;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: #486284;
+    padding-bottom: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 120%; /* Set to 100% to match the container */
+    background-color: #DFE4F5;
+    border-radius: 18px;
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline around the input boxes */
+}
+
+.logButton {
+    width: 130%; /* Adjust the width as needed */
+    text-align: center;
+    margin: 10px auto; /* Center the button horizontally */
+}
+
+#forgot-pass {
+    font-size: 12px;
+    text-decoration: none;
+    text-align: right;
+}
+/*PROFILE PAGE---------------------------------------------------------------*/
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 134px;
+    padding-bottom: 100px;
+}
+
+.left-section {
+    padding-right: 20px; /* Adjust the padding between the sections */
+}
+
+.name-title {
+    font-size: 24px;
+    padding-top: 30px;
+    color: #486284;
+}
+.profile-info{
+    text-align: center;
+}
+.profile-details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-img {
+    border-radius: 20px;
+    height: 320px;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.profile-content {
+    padding-top: 50px;
+    flex: 1; 
+    margin: 100px;
+    color: #486284;
+}
+
+.social-links {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.social-links img {
+    margin-right: 10px;
+}
+
+/*CREATE EVENT---------------------------------------------------------*/
+.create-event {
+    max-width: 40%;
+    margin: 0 auto;
+}
+.event-title{
+    font-size: 36px;
+}
+.createEvForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 300px;
+    margin: 0 auto;
+}
+#category{
+    padding: 10px;
+    width: 128%;
+    margin-bottom: 10px;
+    background-color: #DFE4F5;
+    border-radius: 18px;
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline around the input boxes */
+}
+.form-details{
+    margin: auto;
+    padding-right: 125px;
+}
+
+#details{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 128%; /* Set to 100% to match the container */
+    background-color: #DFE4F5;
+    border-radius: 18px;
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline around the input boxes */
+}
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#photos {
+    border: 2px dashed #ccc;
+    background-color:#fff;
+    padding: 10px;
+    width: 125%;
+    height: 150px; /* Set your desired height */
+}
+
+input[type="submit"] {
+    width: 134px;
+    height: 38px;
+    background: #F2994A;
+    border-radius: 22px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #a75b19;
+}
+/*FOOTER---------------------------------------------------------------*/
+
+.footer {
+    width: 90%;
+    height: 100%;
+    position: relative;
+    background-color: #6373B0;
+    padding: 5%;
+    padding-left: 134px;
+    left: 0;
+    top: 0;
+    text-align: left;
+}
+
+.footer img {
+    width: 20%; 
+}
+
+.footer p {
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer .social img {
+    width: 33.60px;
+    height: 33.60px;
+    border-radius: 50%;
+}

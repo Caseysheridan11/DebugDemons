@@ -1,0 +1,95 @@
+<!--CREATE EVENT ADDED TO PROFILE PAGE-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShareDen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="logo">
+        </div>
+        <div class="search">
+            <input type="search" placeholder="Search" />
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="saved.html">Saved</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--CREATE EVENT------------------------------------------------------>
+    <section>
+        <h1>Create Event</h1>
+        <p>If you would like to submit your own event to be featured on our platform, we welcome
+            your participation! To ensure the quality and relevance of events for all our users,
+            we have a submission process in place. </p><br>
+
+        <p>Submit this form and we will get in touch with you!</p>
+        <form action="/process-event" method="post" enctype="multipart/form-data">
+            <!-- Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name" required><br>
+
+            <!-- Groups -->
+            <label for="groups">Affiliation:</label>
+            <input type="text" id="groups" name="groups" placeholder="Associated Groups" required><br>
+
+            <!-- Category -->
+            <label for="category">Category:</label>
+            <select id="category" name="category" placeholder="Event Category" required>
+                <option value="workshop">Workshop</option>
+                <option value="conference">Conference</option>
+                <option value="meeting">Meeting</option>
+                <!-- Add more options as needed -->
+            </select><br>
+
+            <!-- Date -->
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" placeholder="dd/mm/yyyy" required><br>
+
+            <!-- Time -->
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" placeholder="10:00AM" required><br>
+
+            <!-- Location -->
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Search..." required><br>
+
+            <!-- Details -->
+            <label for="details">Details:</label><br>
+            <textarea id="details" name="details" rows="4" cols="50" placeholder="
+            UI Meetup  welcomes students of all levels. Whether you're a beginner eager to explore the world of user interface design or an experienced professional looking to network and stay up-to-date with the latest trends. 
+            Contact sherichang@sheridancollege.ca if you have questions!" required></textarea><br>
+
+            <!-- Photo Upload -->
+            <label for="photos">Upload Photos:</label>
+            <input type="file" id="photos" name="photos" accept="image/*" placeholder="Drop or Upload Photos"><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!--FOOTER---------------------------------------------------------------------------------->
+    <section class="footer">
+        <img src="logo.jpg" alt="logo">
+        <p>©2023 Debug Demons. All rights reserved</p><br>
+        <p>A platform to empower connections, foster community, and enrich campus life.</p>
+        <img src="facebook.jpg" alt="facebookLogo">
+        <img src="twitter.jpg" alt="twitterLogo">
+        <img src="instagram.jpg" alt="instagramLogo">
+    </section>
+</body>
+
+</html>
