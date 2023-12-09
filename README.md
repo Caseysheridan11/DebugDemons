@@ -9,3 +9,8 @@ Casey branch castle blanc
 I just did the php file for bla bla bla in my branch. 
 
 Capisce??
+
+-Casey-branch commit
+
+New files for editing guys check em out. the login, signup and home page. 
+although everyone should check out the home page too and its CSS for the header and footer so we have an idea what i was saying. 
